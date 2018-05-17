@@ -1,7 +1,5 @@
 # Codedeploy Agent
 
-[![Build Status](https://travis-ci.org/darkraiden/ansible-role-codedeploy-agent.svg?branch=master)](https://travis-ci.org/darkraiden/ansible-role-codedeploy-agent)
-
 Ansible Role to provision the AWS Codedeploy Agent.
 
 ## Requirements
@@ -74,7 +72,7 @@ You can write your own test by adding a new file or editing the existing one liv
 ```yml
 - hosts: servers
   roles:
-      - { role: darkraiden.ansible-codedeploy-agent }
+      - { role: ansible-role-codedeploy-agent }
 ```
 
 ## License
@@ -83,4 +81,4 @@ MIT
 
 ## Author Information
 
-This role was created in 2018 by [Davide Di Mauro](https://github.com/darkraiden).
+This role was created in 2018 by [Davide Di Mauro](https://github.com/darkraiden) for [Crowdcube](https://crowdcube.com).
